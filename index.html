@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD con JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Sección de botones -->
+        <div class="seccion contenedor-botones">
+            <button id="btnCrearUsuario">Crear Usuario</button>
+            <button id="btnBuscarUsuario">Buscar Usuario</button>
+        </div>
+    
+        <!-- Sección de formulario de creación de usuario -->
+        <div id="seccionCrearUsuario" class="seccion seccion-formulario">
+            <h3>Crear Usuario</h3>
+            <div class="grupo-formulario">
+                <label for="idUsuario">ID</label>
+                <input type="text" id="idUsuario" placeholder="Ingrese ID">
+            </div>
+            <div class="grupo-formulario">
+                <label for="nombreCompleto">Nombre Completo</label>
+                <input type="text" id="nombreCompleto" placeholder="Ingrese nombre completo">
+            </div>
+            <div class="grupo-formulario">
+                <label for="dni">DNI</label>
+                <input type="text" id="dni" placeholder="Ingrese DNI">
+            </div>
+            <div class="grupo-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="text" id="telefono" placeholder="Ingrese teléfono">
+            </div>
+            <div class="grupo-formulario">
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" placeholder="Ingrese dirección">
+            </div>
+            <button id="btnGuardarUsuario">Guardar Usuario</button>
+        </div>
+    
+        <!-- Sección de búsqueda de usuario -->
+        <div id="seccionBuscarUsuario" class="seccion seccion-formulario">
+            <h3>Buscar Usuario</h3>
+            <div class="grupo-formulario">
+                <label for="idBuscarUsuario">ID del Usuario</label>
+                <input type="text" id="idBuscarUsuario" placeholder="Ingrese ID del usuario">
+            </div>
+            <button id="btnBuscar">Buscar</button>
+        </div>
+    
+        <!-- Sección de resultados -->
+        <div id="seccionResultados" class="seccion seccion-resultados">
+            <h3>Detalles del Usuario</h3>
+            <p><strong>ID:</strong> <span id="resultadoId"></span></p>
+            <p><strong>Nombre Completo:</strong> <span id="resultadoNombreCompleto"></span></p>
+            <p><strong>DNI:</strong> <span id="resultadoDni"></span></p>
+            <p><strong>Teléfono:</strong> <span id="resultadoTelefono"></span></p>
+            <p><strong>Dirección:</strong> <span id="resultadoDireccion"></span></p>
+        </div>
+    </div>
+    <script href="script.js"></script>
+</body>
+</html>
