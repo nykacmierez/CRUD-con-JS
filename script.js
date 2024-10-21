@@ -52,3 +52,12 @@ btnGuardarUsuario.addEventListener('click', () => {
 });
 
 //para buscar un usuario
+btnBuscarUsuario.addEventListener('click', () => {
+    const idBuscarUsuario = document.getElementById('idBuscarUsuario').value;
+    const usuario = usuarios.find(user => user.id === idBuscarUsuario);
+
+    //para mostrar la busqueda
+    if(usuario) {
+        
+    }
+})
