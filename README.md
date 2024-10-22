@@ -1,13 +1,13 @@
 # Aplicación de Gestión de Usuarios
 
-Esta es una aplicación simple de gestión de usuarios construida utilizando HTML, CSS y JavaScript. Permite a los usuarios crear nuevos usuarios, buscar usuarios existentes por ID o nombre completo, y ver los detalles de los usuarios. La aplicación está diseñada para manejar la entrada de datos de usuarios y manipular una lista de usuarios almacenada en memoria.
+Esta es una aplicación simple de gestión de usuarios construida utilizando HTML, CSS y JavaScript. Permite crear nuevos usuarios, buscar existentes por ID o nombre completo y ver los detalles de los mismos. La aplicación está diseñada para manejar la entrada de datos de usuarios y manipular una lista almacenada en memoria.
 
 ## Funcionalidades
 
-- **Crear Usuarios:** Los usuarios pueden añadir un nuevo usuario a la lista ingresando los detalles requeridos como ID, nombre completo, DNI, número de teléfono y dirección.
-- **Buscar Usuarios:** Los usuarios pueden buscar a un usuario existente ya sea por su ID o por su nombre completo.
+- **Crear Usuarios:** Se pueden añadir nuevos usuarios a la lista ingresando los detalles requeridos como ID, nombre completo, DNI, número de teléfono y dirección.
+- **Buscar Usuarios:** Se puede buscar a un usuario existente ya sea por su ID o por su nombre completo.
 - **Ver Detalles del Usuario:** Si el usuario es encontrado, se mostrarán sus detalles (ID, nombre completo, DNI, número de teléfono y dirección).
-- **Cancelar Búsqueda/Creación:** Los usuarios pueden cancelar la búsqueda o creación, ocultando el formulario correspondiente.
+- **Cancelar Búsqueda/Creación:** Se puede cancelar la búsqueda o creación, ocultando el formulario correspondiente.
 
 ## Instrucciones de Uso
 
