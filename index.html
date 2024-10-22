@@ -38,16 +38,25 @@
                 <input type="text" id="direccion" placeholder="Ingrese dirección">
             </div>
             <button id="btnGuardarUsuario">Guardar Usuario</button>
+            <button id="btnCancelar">Cancelar</button>
         </div>
     
         <!-- Sección de búsqueda de usuario -->
         <div id="seccionBuscarUsuario" class="seccion seccion-formulario">
             <h3>Buscar Usuario</h3>
             <div class="grupo-formulario">
-                <label for="idBuscarUsuario">ID del Usuario</label>
-                <input type="text" id="idBuscarUsuario" placeholder="Ingrese ID del usuario">
+                <label for="criterioBusqueda">Buscar por</label>
+                <select id="criterioBusqueda">
+                    <option value="id">ID</option>
+                    <option value="nombreCompleto">Nombre Completo</option>
+                </select>
+            </div>
+            <div class="grupo-formulario">
+                <label for="inputBusqueda">Valor a buscar</label>  
+                <input type="text" id="inputBusqueda" placeholder="Ingrese valor a buscar">
             </div>
             <button id="btnBuscar">Buscar</button>
+            <button id="btnCancelar">Cancelar</button>
         </div>
     
         <!-- Sección de resultados -->
@@ -60,6 +69,6 @@
             <p><strong>Dirección:</strong> <span id="resultadoDireccion"></span></p>
         </div>
     </div>
-    <script href="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
